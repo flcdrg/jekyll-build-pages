@@ -14,7 +14,7 @@ PAGES_GEM_HOME=$BUNDLE_APP_CONFIG
 GITHUB_PAGES=$PAGES_GEM_HOME/bin/github-pages
 
 # Set environment variables required by supported plugins
-export JEKYLL_ENV="production"
+export JEKYLL_ENV="development"
 export JEKYLL_GITHUB_TOKEN=$INPUT_TOKEN
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
 export JEKYLL_BUILD_REVISION=$INPUT_BUILD_REVISION
